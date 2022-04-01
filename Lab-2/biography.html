@@ -4,27 +4,106 @@
 <head>
   <meta charset="utf-8">
   <title>Моя автобіографія</title>
+  
+  <style>
+    #page-top {
+      text-align: center;
+      font-size: 22px;
+    }
+
+    #back-to-main-page {
+      font-style: italic;
+    }
+
+    #content {
+      text-align: center;
+    }
+
+    #content-section > a:link, #content-section > a:visited {
+      text-decoration: none;
+      text-align: center;
+      background-color: blue;
+      color: white;
+      border: 4px solid black;
+      display: block;
+      width: 195px;
+      margin-bottom: 4px;
+    }
+
+    #content-section > a:hover {
+      background-color: magenta;
+      color: #00008B;
+    }
+
+    #content-section > a:active {
+      background-color: yellow;
+      color: black;
+    }
+    
+    article {
+      font-size: 120%;
+    }
+
+    article > h2 {
+      font-size: 1.2em;
+    }
+
+
+    article > #basic-info-text {
+      background-color: aqua;
+      color: darkblue;
+    }
+
+    article > #childhood-text {
+      background-color: antiquewhite;
+      color: royalblue;
+    }
+
+    article > #school-years-text {
+      background-color: green;
+      color: white;
+    }
+
+    article > #out-of-school-text {
+      background-color: yellow;
+      color: black;
+    }
+
+    article > #university-text {
+      background-color: rebeccapurple;
+      color: floralwhite;
+    }
+
+    #info-section > a {
+      font-weight: bold;
+    }
+
+    #back-to-top {
+      text-transform: uppercase;
+    }
+  </style>
+
 </head>
 
 <body>
   <header>
     <h1 id="page-top">Автобіографія Ровінського Юрія Вікторовича</h1>
-    <a href="index.html">Назад на головну</a>
+    <a href="index.html" id="back-to-main-page">Назад на головну</a>
   </header>
 
-  <section>
+  <section id="content-section">
     <h3 id="content">Зміст</h3>
-    <a href="#basic-info">Базова інформація</a>
-    <a href="#childhood">Дитинство</a>
-    <a href="#school-years">Шкільні роки</a>
-    <a href="#out-of-school">Поза школою</a>
-    <a href="#university">Університет</a>
+    <a href="#basic-info-heading">Базова інформація</a>
+    <a href="#childhood-heading">Дитинство</a>
+    <a href="#school-years-heading">Шкільні роки</a>
+    <a href="#out-of-school-heading">Поза школою</a>
+    <a href="#university-heading">Університет</a>
   </section>
 
-  <section>
+  <section id="info-section">
     <article>
-      <h2 id="basic-info">Базова інформація</h2>
-      <p>
+      <h2 id="basic-info-heading">Базова інформація</h2>
+      <p id="basic-info-text">
         Я народився 21 вересня 2001 року, в місті Івано-Франківськ. Моя
         сім'я - це я, батько, мати, менший брат, дві бабусі та дідусь. З 2008
         по 2012 роки навчався в Івано-Франківській загально-освітній
@@ -36,12 +115,11 @@
         та інформатики. Тут я обрав для себе кафедру комп'ютерних наук
         та інформаційних систем.
       </p>
-      <a href="#content">До змісту</a>
     </article>
-
+    <a href="#content">до змісту</a>
     <article>
-      <h2 id="childhood">Дитинство</h2>
-      <p>
+      <h2 id="childhood-heading">Дитинство</h2>
+      <p id="childhood-text">
         Більшість мого дитинства я провів у своєму рідному місті. Проте
         час від часу я їхав до своїх дідуся і бабусі, які живуть у
         Сумській області. Але очевидним є те, що найбільше всіляких пригод
@@ -53,12 +131,11 @@
         тоді тільки &quot;набирали обороти&quot;. Тут я вкажу лише одну таку
         гру, наприклад Clash Of Clans.
       </p>
-      <a href="#content">До змісту</a>
     </article>
-
+    <a href="#content">до змісту</a>
     <article>
-      <h2 id="school-years">Шкільні роки</h2>
-      <p>
+      <h2 id="school-years-heading">Шкільні роки</h2>
+      <p id="school-years-text">
         На початку мого освітнього шляху, я не знав до кінця як все для
         мене складеться. Але через деякий час, помітивши кілька своїх
         успіхів, я все усвідомив. З того моменту я старався бути
@@ -70,12 +147,11 @@
         я хочу сказати їм велике &quot;Дякую!&quot; за те, що вони були
         поруч зі мною і продовжують бути.
       </p>
-      <a href="#content">До змісту</a>
     </article>
-
+    <a href="#content">до змісту</a>
     <article>
-      <h2 id="out-of-school">Поза школою</h2>
-      <p>
+      <h2 id="out-of-school-heading">Поза школою</h2>
+      <p id="out-of-school-text">
         За межами школи я теж мав декількох друзів, які вчились де-інде,
         але теж проводили зі мною час. Вони були різного віку, дехто був
         молодший за мене на 5 років, а хтось був старший на 3 і т.д.
@@ -86,12 +162,11 @@
         &quot;стріму&quot; наш канал втратив всю активність. Можливо, колись
         він її відновить...
       </p>
-      <a href="#content">До змісту</a>
     </article>
-
+    <a href="#content">до змісту</a>
     <article>
-      <h2 id="university">Університет</h2>
-      <p>
+      <h2 id="university-heading">Університет</h2>
+      <p id="university-text">
         Ось і настав той момент, на котрий чекав не тільки я, але й батьки,
         тому що університет - це справді новий рівень. Після здачі ЗНО й
         подання документів я потрапив до ПНУ - мого alma mater. Я собі
@@ -103,12 +178,12 @@
         матеріалу, як треба і як не треба робити, ну і звичайно набув деякого
         досвіду, особливо в програмуванні, але не тільки. To be continued...
       </p>
-      <a href="#content">До змісту</a>
     </article>
+    <a href="#content">до змісту</a>
   </section>
 
   <hr>
-  <a href="#page-top">Уверх</a>
+  <a href="#page-top" id="back-to-top">Уверх</a>
 </body>
 
 </html>
