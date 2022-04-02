@@ -11,11 +11,11 @@
       font-size: 22px;
     }
 
-    #back-to-main-page {
+    header > a {
       font-style: italic;
     }
 
-    #content {
+    #content-section > h3 {
       text-align: center;
     }
 
@@ -48,28 +48,27 @@
       font-size: 1.2em;
     }
 
-
-    article > #basic-info-text {
+    #info-section article:nth-of-type(1) > p {
       background-color: aqua;
       color: darkblue;
     }
 
-    article > #childhood-text {
+    #info-section article:nth-of-type(2) > p {
       background-color: antiquewhite;
       color: royalblue;
     }
 
-    article > #school-years-text {
+    #info-section article:nth-of-type(3) > p {
       background-color: green;
       color: white;
     }
 
-    article > #out-of-school-text {
+    #info-section article:nth-of-type(4) > p {
       background-color: yellow;
       color: black;
     }
 
-    article > #university-text {
+    #info-section article:nth-of-type(5) > p {
       background-color: rebeccapurple;
       color: floralwhite;
     }
@@ -78,21 +77,20 @@
       font-weight: bold;
     }
 
-    #back-to-top {
+    body > a {
       text-transform: uppercase;
     }
   </style>
-
 </head>
 
 <body>
   <header>
     <h1 id="page-top">Автобіографія Ровінського Юрія Вікторовича</h1>
-    <a href="index.html" id="back-to-main-page">Назад на головну</a>
+    <a href="index.html">Назад на головну</a>
   </header>
 
   <section id="content-section">
-    <h3 id="content">Зміст</h3>
+    <h3><a name="content">Зміст</a></h3>
     <a href="#basic-info-heading">Базова інформація</a>
     <a href="#childhood-heading">Дитинство</a>
     <a href="#school-years-heading">Шкільні роки</a>
@@ -103,7 +101,7 @@
   <section id="info-section">
     <article>
       <h2 id="basic-info-heading">Базова інформація</h2>
-      <p id="basic-info-text">
+      <p>
         Я народився 21 вересня 2001 року, в місті Івано-Франківськ. Моя
         сім'я - це я, батько, мати, менший брат, дві бабусі та дідусь. З 2008
         по 2012 роки навчався в Івано-Франківській загально-освітній
@@ -116,10 +114,10 @@
         та інформаційних систем.
       </p>
     </article>
-    <a href="#content">до змісту</a>
+    <a href="#content">До змісту</a>
     <article>
       <h2 id="childhood-heading">Дитинство</h2>
-      <p id="childhood-text">
+      <p>
         Більшість мого дитинства я провів у своєму рідному місті. Проте
         час від часу я їхав до своїх дідуся і бабусі, які живуть у
         Сумській області. Але очевидним є те, що найбільше всіляких пригод
@@ -132,10 +130,10 @@
         гру, наприклад Clash Of Clans.
       </p>
     </article>
-    <a href="#content">до змісту</a>
+    <a href="#content">До змісту</a>
     <article>
       <h2 id="school-years-heading">Шкільні роки</h2>
-      <p id="school-years-text">
+      <p>
         На початку мого освітнього шляху, я не знав до кінця як все для
         мене складеться. Але через деякий час, помітивши кілька своїх
         успіхів, я все усвідомив. З того моменту я старався бути
@@ -148,10 +146,10 @@
         поруч зі мною і продовжують бути.
       </p>
     </article>
-    <a href="#content">до змісту</a>
+    <a href="#content">До змісту</a>
     <article>
       <h2 id="out-of-school-heading">Поза школою</h2>
-      <p id="out-of-school-text">
+      <p>
         За межами школи я теж мав декількох друзів, які вчились де-інде,
         але теж проводили зі мною час. Вони були різного віку, дехто був
         молодший за мене на 5 років, а хтось був старший на 3 і т.д.
@@ -163,10 +161,10 @@
         він її відновить...
       </p>
     </article>
-    <a href="#content">до змісту</a>
+    <a href="#content">До змісту</a>
     <article>
       <h2 id="university-heading">Університет</h2>
-      <p id="university-text">
+      <p>
         Ось і настав той момент, на котрий чекав не тільки я, але й батьки,
         тому що університет - це справді новий рівень. Після здачі ЗНО й
         подання документів я потрапив до ПНУ - мого alma mater. Я собі
@@ -179,11 +177,10 @@
         досвіду, особливо в програмуванні, але не тільки. To be continued...
       </p>
     </article>
-    <a href="#content">до змісту</a>
+    <a href="#content">До змісту</a>
   </section>
 
   <hr>
-  <a href="#page-top" id="back-to-top">Уверх</a>
+  <a href="#page-top">Уверх</a>
 </body>
-
 </html>
