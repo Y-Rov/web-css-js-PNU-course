@@ -4,6 +4,45 @@
 <head>
   <meta charset="utf-8">
   <title>Моє сьогодення</title>
+  <style>
+    header > h1 {
+      text-align: center;
+      font-size: 22px;
+    }
+
+    header > a {
+      font-style: italic;
+    }
+
+    section > h2 {
+      text-align: center;
+    } 
+
+    caption {
+      text-align: end;
+    }
+
+    th {
+      text-align: center;
+      background-color: green;
+      color: white;
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) > td {
+      background-color: gray;
+      color: white;
+    }
+
+    table, th, td {
+      border: 2px solid black;
+      padding: 15px;
+    }
+
+    td:last-child {
+      text-align: end;
+    }
+  </style>
 </head>
 
 <body>
@@ -15,6 +54,7 @@
   <section>
     <h2>Мої друзі</h2>
     <table>
+      <caption>Таблиця 1 ‒ Мої друзі</caption>
       <tr>
         <th>Прізвище</th>
         <th>Ім'я</th>
@@ -53,5 +93,4 @@
     </table>
   </section>
 </body>
-
 </html>
