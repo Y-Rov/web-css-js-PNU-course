@@ -14,12 +14,12 @@
       font-style: italic;
     }
 
-    #content-section > h3 {
+    section:first-of-type > h3 {
       text-align: center;
     }
 
-    #content-section > a:link,
-    #content-section > a:visited {
+    section:first-of-type > a:link,
+    section:first-of-type > a:visited {
       text-decoration: none;
       text-align: center;
       background-color: blue;
@@ -30,50 +30,50 @@
       margin-bottom: 4px;
     }
 
-    #content-section > a:hover {
+    section:first-of-type > a:hover {
       background-color: magenta;
       color: #00008B;
     }
 
-    #content-section > a:active {
+    section:first-of-type > a:active {
       background-color: yellow;
       color: black;
     }
 
-    #info-section article {
+    section:last-of-type article {
       font-size: 1.2em;
     }
 
-    #info-section article > h2 {
+    section:last-of-type article > h2 {
       font-size: 1.8em;
     }
 
-    #info-section article:first-of-type > p {
+    section:last-of-type article:first-of-type > p {
       background-color: aqua;
       color: darkblue;
     }
 
-    #info-section article:nth-of-type(2) > p {
+    section:last-of-type article:nth-of-type(2) > p {
       background-color: antiquewhite;
       color: royalblue;
     }
 
-    #info-section article:nth-of-type(3) > p {
+    section:last-of-type article:nth-of-type(3) > p {
       background-color: green;
       color: white;
     }
 
-    #info-section article:nth-of-type(4) > p {
+    section:last-of-type article:nth-of-type(4) > p {
       background-color: yellow;
       color: black;
     }
 
-    #info-section article:last-of-type > p {
+    section:last-of-type article:last-of-type > p {
       background-color: rebeccapurple;
       color: floralwhite;
     }
 
-    #info-section > a {
+    section:last-of-type > a {
       font-weight: bold;
     }
 
@@ -89,7 +89,7 @@
     <a href="index.html">Назад на головну</a>
   </header>
 
-  <section id="content-section">
+  <section>
     <h3><a name="content">Зміст</a></h3>
     <a href="#basic-info-heading">Базова інформація</a>
     <a href="#childhood-heading">Дитинство</a>
@@ -98,7 +98,7 @@
     <a href="#university-heading">Університет</a>
   </section>
 
-  <section id="info-section">
+  <section>
     <article>
       <h2 id="basic-info-heading">Базова інформація</h2>
       <p>
@@ -165,7 +165,7 @@
       </p>
     </article>
     <a href="#content">До змісту</a>
-    
+
     <article>
       <h2 id="university-heading">Університет</h2>
       <p>
