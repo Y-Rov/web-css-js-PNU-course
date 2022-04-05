@@ -18,7 +18,8 @@
       text-align: center;
     }
 
-    #content-section > a:link, #content-section > a:visited {
+    #content-section > a:link,
+    #content-section > a:visited {
       text-decoration: none;
       text-align: center;
       background-color: blue;
@@ -38,16 +39,16 @@
       background-color: yellow;
       color: black;
     }
-    
-    article {
-      font-size: 120%;
-    }
 
-    article > h2 {
+    #info-section article {
       font-size: 1.2em;
     }
 
-    #info-section article:nth-of-type(1) > p {
+    #info-section article > h2 {
+      font-size: 1.8em;
+    }
+
+    #info-section article:first-of-type > p {
       background-color: aqua;
       color: darkblue;
     }
@@ -67,7 +68,7 @@
       color: black;
     }
 
-    #info-section article:nth-of-type(5) > p {
+    #info-section article:last-of-type > p {
       background-color: rebeccapurple;
       color: floralwhite;
     }
@@ -114,6 +115,7 @@
       </p>
     </article>
     <a href="#content">До змісту</a>
+
     <article>
       <h2 id="childhood-heading">Дитинство</h2>
       <p>
@@ -130,6 +132,7 @@
       </p>
     </article>
     <a href="#content">До змісту</a>
+
     <article>
       <h2 id="school-years-heading">Шкільні роки</h2>
       <p>
@@ -146,6 +149,7 @@
       </p>
     </article>
     <a href="#content">До змісту</a>
+
     <article>
       <h2 id="out-of-school-heading">Поза школою</h2>
       <p>
@@ -161,6 +165,7 @@
       </p>
     </article>
     <a href="#content">До змісту</a>
+    
     <article>
       <h2 id="university-heading">Університет</h2>
       <p>
@@ -182,4 +187,5 @@
   <hr>
   <a href="#page-top">Уверх</a>
 </body>
+
 </html>
