@@ -13,7 +13,7 @@ h1 {
 
 h3 {
   font-size: 21px;
-  margin-bottom: 22px;
+  margin-bottom: 5px;
   float: right;
   border-left: 2px solid black;
   border-bottom: 2px solid black;
@@ -34,8 +34,8 @@ h3 {
 }
 
 p {
-  width: 92.5%;
-  height: 150px;
+  padding: 12px;
+  height: 160px;
   margin-right: auto;
   margin-left: auto;
   clear: right;
@@ -48,7 +48,7 @@ p {
 
 .row {
   clear: both;
-  margin-bottom: 2%;
+  margin-bottom: 10px;
 }
 
 .row:after {
@@ -62,6 +62,7 @@ p {
 
 a {
   margin-left: 2%;
+  text-decoration: none;
 }
 
 /* Styles For Desktop */
@@ -89,8 +90,32 @@ a {
     width: 30.666%;
   }
 
+  .col-lg-5 {
+    width: 38.83%;
+  }
+
   .col-lg-6 {
     width: 47%;
+  }
+
+  .col-lg-7 {
+    width: 55.16%;
+  }
+
+  .col-lg-8 {
+    width: 63.33%;
+  }
+
+  .col-lg-9 {
+    width: 71.5%;
+  }
+
+  .col-lg-10 {
+    width: 79.66%;
+  }
+
+  .col-lg-11 {
+    width: 87.83%;
   }
 
   .col-lg-12 {
@@ -123,8 +148,32 @@ a {
     width: 30.666%;
   }
 
+  .col-md-5 {
+    width: 38.83%;
+  }
+
   .col-md-6 {
     width: 47%;
+  }
+
+  .col-md-7 {
+    width: 55.16%;
+  }
+
+  .col-md-8 {
+    width: 63.33%;
+  }
+
+  .col-md-9 {
+    width: 71.5%;
+  }
+
+  .col-md-10 {
+    width: 79.66%;
+  }
+
+  .col-md-11 {
+    width: 87.83%;
   }
 
   .col-md-12 {
@@ -157,8 +206,32 @@ a {
     width: 30.666%;
   }
 
+  .col-sm-5 {
+    width: 38.83%;
+  }
+
   .col-sm-6 {
     width: 47%;
+  }
+
+  .col-sm-7 {
+    width: 55.16%;
+  }
+
+  .col-sm-8 {
+    width: 63.33%;
+  }
+
+  .col-sm-9 {
+    width: 71.5%;
+  }
+
+  .col-sm-10 {
+    width: 79.66%;
+  }
+
+  .col-sm-11 {
+    width: 87.83%;
   }
 
   .col-sm-12 {
