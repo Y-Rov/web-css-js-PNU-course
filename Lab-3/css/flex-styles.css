@@ -11,13 +11,13 @@ h1 {
   margin-bottom: 25px;
 }
 
-.container {
+.wrapper {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 10px;
 }
 
-.container div {
+.wrapper div {
   background-color: #d5e8d4;
   border: 2px solid black;
   display: flex;
@@ -153,7 +153,7 @@ a {
   }
 
   .col-md-6 {
-    flex: 46%;
+    flex: 47%;
   }
 
   .col-md-7 {
