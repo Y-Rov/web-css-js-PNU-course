@@ -1,98 +1,76 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 h1 {
-  font-size: 28px;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 25px;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 10px;
 }
 
 .wrapper {
-  display: grid;
-  margin-bottom: 10px;
+	display: grid;
+	padding: 2% 2% 0 2%;
+	column-gap: 2%;
+	margin-bottom: 10px;
 }
 
 .grid-item {
-  border: 2px solid black;
-  background-color: #d5e8d4;
-  margin-top: 2%;
+	border: 2px solid black;
+	background-color: #d5e8d4;
+	margin-top: 2%;
+	display: grid;
+	grid-template-rows: 30px auto;
+	row-gap: 5px;
 }
 
 h3 {
-  font-size: 21px;
-  margin-bottom: 5px;
-  /* border-left: 2px solid black;
-  border-bottom: 2px solid black; */
-  /* padding: 3px 30px; */
+	font-size: 21px;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 3px 30px;
+	justify-self: end;
 }
 
 .block1-heading {
-  background-color: #f0a30a;
+	background-color: #f0a30a;
 }
 
 .block2-heading {
-  background-color: #d80073;
-  color: white;
+	background-color: #d80073;
+	color: white;
 }
 
 .block3-heading {
-  background-color: #fad9d5;
+	background-color: #fad9d5;
 }
 
 p {
-  padding: 12px;
+	padding: 12px;
 }
 
 a {
-  margin-left: 2%;
-  text-decoration: none;
+	margin-left: 2%;
+	text-decoration: none;
 }
 
 /* Styles For Desktop */
 @media (min-width: 993px) {
-  .wrapper {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .grid-item:first-of-type {
-    margin-left: 6%;
-  }  
-
-  .grid-item:last-of-type {
-    margin-right: 6%;
-  }
+	.wrapper {
+		grid-template-columns: repeat(3, 1fr);
+	}
 }
 
 /* Styles For Tablet */
 @media (min-width: 769px) and (max-width: 992px) {
-  .wrapper {
-    grid-template-columns: repeat(2, 1fr);
-  }
+	.wrapper {
+		grid-template-columns: repeat(2, 1fr);
+	}
 
-  .grid-item {
-    margin-left: 4%;
-    margin-right: 4%;
-  }
-
-  .grid-item:first-of-type {
-    margin-right: 0;
-  }
-
-  .grid-item:last-of-type {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    margin-left: 2%;
-    margin-right: 2%;
-  }
-}
-
-/* Styles For Mobile */ 
-@media (max-width: 768px) {
-  .grid-item {
-    margin: 2% 2% 0 2%;
-  }
+	.grid-item:last-of-type {
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
 }
