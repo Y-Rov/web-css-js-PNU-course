@@ -33,43 +33,84 @@ section:first-of-type > a:active {
   color: black;
 }
 
-section:last-of-type article {
-  font-size: 1.2em;
+article {
+  border: 1px solid black;
 }
 
-section:last-of-type article > h2 {
+.wrapper {
+  display: grid;
+}
+
+.wrapper article {
+  font-size: 1.2em;
+  padding: 2%;
+}
+
+.wrapper article > h2 {
   font-size: 1.8em;
 }
 
-section:last-of-type article:first-of-type > p {
+.wrapper > .grid-item:first-of-type article {
   background-color: aqua;
+}
+
+.wrapper > .grid-item:first-of-type article > h2,
+.wrapper > .grid-item:first-of-type article > p {
   color: darkblue;
 }
 
-section:last-of-type article:nth-of-type(2) > p {
+.wrapper .grid-item:nth-of-type(2) article {
   background-color: antiquewhite;
+}
+
+.wrapper .grid-item:nth-of-type(2) article > h2,
+.wrapper .grid-item:nth-of-type(2) article > p {
   color: royalblue;
 }
 
-section:last-of-type article:nth-of-type(3) > p {
+.wrapper .grid-item:nth-of-type(3) article {
   background-color: green;
+}
+
+.wrapper .grid-item:nth-of-type(3) article > h2,
+.wrapper .grid-item:nth-of-type(3) article > p {
   color: white;
 }
 
-section:last-of-type article:nth-of-type(4) > p {
+.wrapper .grid-item:nth-of-type(4) article {
   background-color: yellow;
+}
+
+.wrapper .grid-item:nth-of-type(4) article > h2,
+.wrapper .grid-item:nth-of-type(4) article > p {
   color: black;
 }
 
-section:last-of-type article:last-of-type > p {
+.wrapper .grid-item:last-of-type article {
   background-color: rebeccapurple;
+}
+
+.wrapper .grid-item:last-of-type article > h2,
+.wrapper .grid-item:last-of-type article > p {
   color: floralwhite;
 }
 
-section:last-of-type > a {
+.wrapper > a {
   font-weight: bold;
 }
 
 body > a {
   text-transform: uppercase;
+}
+
+@media (min-width: 993px) {
+  .wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
