@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+p {
+  font-size: 120%;
+}
+
+a:first-of-type:link {
+  color: blue;
+}
+
+a:first-of-type:visited {
+  color: chocolate;
+}
+
+a:nth-of-type(2):link {
+  color: red;
+}
+
+a:nth-of-type(2):visited {
+  color: darkcyan;
+}
+
+a:nth-of-type(3):link {
+  color: green;
+}
+
+a:nth-of-type(3):visited {
+  color: darkmagenta;
+}
+
+a:last-of-type:link {
+  color: orange;
+}
+
+a:last-of-type:visited {
+  color: mediumvioletred;
+}
