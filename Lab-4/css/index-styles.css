@@ -7,34 +7,55 @@ p {
   font-size: 120%;
 }
 
-a:first-of-type:link {
+a {
+  font-size: 20px;
+}
+
+.wrapper {
+  display: grid;
+  justify-items: center;
+}
+
+.grid-item:first-of-type a:link {
   color: blue;
 }
 
-a:first-of-type:visited {
+.grid-item:first-of-type a:visited {
   color: chocolate;
 }
 
-a:nth-of-type(2):link {
+.grid-item:nth-of-type(2) a:link {
   color: red;
 }
 
-a:nth-of-type(2):visited {
+.grid-item:nth-of-type(2) a:visited {
   color: darkcyan;
 }
 
-a:nth-of-type(3):link {
+.grid-item:nth-of-type(3) a:link {
   color: green;
 }
 
-a:nth-of-type(3):visited {
+.grid-item:nth-of-type(3) a:visited {
   color: darkmagenta;
 }
 
-a:last-of-type:link {
+.grid-item:last-of-type a:link {
   color: orange;
 }
 
-a:last-of-type:visited {
+.grid-item:last-of-type a:visited {
   color: mediumvioletred;
+}
+
+@media (min-width: 993px) {
+  .wrapper {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
