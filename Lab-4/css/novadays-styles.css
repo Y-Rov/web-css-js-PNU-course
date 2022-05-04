@@ -1,0 +1,54 @@
+header > h1 {
+  text-align: center;
+  font-size: 22px;
+}
+
+header > a {
+  font-style: italic;
+}
+
+section > h2 {
+  text-align: center;
+}
+
+div {
+  display: grid;
+}
+
+ul li:nth-of-type(odd),
+li ul li:nth-of-type(odd) {
+  background-color: gray;
+  color: white;
+}
+
+li ul:not(li:nth-of-type(even)) {
+  background-color: white;
+  color: black;
+}
+
+ol li:nth-of-type(3):hover,
+ol li:nth-of-type(5):hover,
+li ol li:nth-of-type(3):hover,
+li ol li:nth-of-type(5):hover {
+  cursor: pointer;
+}
+
+li ol:not(li:nth-of-type(3):hover),
+li ol:not(li:nth-of-type(5):hover) {
+  cursor: text;
+}
+
+ol li:nth-of-type(4),
+li ol li:nth-of-type(4) {
+  background-color: yellow;
+}
+
+li ol:not(li:nth-of-type(4)) {
+  background-color: white;
+}
+
+@media (min-width: 993px) {
+  div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
