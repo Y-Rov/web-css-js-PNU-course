@@ -14,6 +14,8 @@ h2 {
 section {
   font-size: 1.5em;
   text-align: center;
+  display: grid;
+  align-items: center;
 }
 
 article:first-child > h3 {
@@ -28,8 +30,36 @@ article:last-child > h3 {
   font-size: 1.69em;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+@media (min-width: 993px) {
+  section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  img {
+    width: 325px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  img {
+    width: 365px;
+  }
+
+  article:last-of-type {
+    grid-column: 1 / 3;
+  }
+
+  article:last-of-type img {
+    width: 769px;
+  }
+}
+
+@media (max-width: 768px) {
+  img {
+    width: 400px;
+  }
 }
