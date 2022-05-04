@@ -95,7 +95,7 @@ article {
   color: floralwhite;
 }
 
-.wrapper > a {
+.grid-item a {
   font-weight: bold;
 }
 
@@ -105,12 +105,36 @@ body > a {
 
 @media (min-width: 993px) {
   .wrapper {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .grid-item:first-of-type {
+    grid-column: 1 / 3;
+  }
+
+  .grid-item:nth-of-type(2) {
+    grid-column: 3 / 5;
+  }
+
+  .grid-item:nth-of-type(3) {
+    grid-column: 5 / 7;
+  }
+
+  .grid-item:nth-of-type(4) {
+    grid-column: 1 / 4;
+  }
+
+  .grid-item:last-of-type {
+    grid-column: 4 / 7;
   }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
   .wrapper {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-item:last-of-type {
+    grid-column: 1 / 3; 
   }
 }
