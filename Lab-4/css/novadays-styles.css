@@ -11,6 +11,10 @@ section > h2 {
   text-align: center;
 }
 
+div {
+  display: grid;
+}
+
 ul li:nth-of-type(odd),
 li ul li:nth-of-type(odd) {
   background-color: gray;
@@ -41,4 +45,10 @@ li ol li:nth-of-type(4) {
 
 li ol:not(li:nth-of-type(4)) {
   background-color: white;
+}
+
+@media (min-width: 993px) {
+  div {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
