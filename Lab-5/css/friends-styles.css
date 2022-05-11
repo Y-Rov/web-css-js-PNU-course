@@ -1,0 +1,67 @@
+body {
+  font-size: 16px;
+}
+
+header > h1 {
+  text-align: center;
+  font-size: 22px;
+}
+
+header > a {
+  font-style: italic;
+}
+
+section > h2 {
+  text-align: center;
+}
+
+caption {
+  text-align: end;
+}
+
+th {
+  text-align: center;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+tr:nth-child(even) > td {
+  background-color: gray;
+  color: white;
+}
+
+table, th, td {
+  border: 2px solid black;
+  padding: 15px;
+}
+
+td:last-child {
+  text-align: end;
+}
+
+@media (min-width: 993px) {
+  th {
+    font-size: 1.3em;
+  }
+
+  td {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  th {
+    font-size: 1.2em;
+  }
+
+  td {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 768px) {
+  th {
+    font-size: 1.1em;
+  }
+}
