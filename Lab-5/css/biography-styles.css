@@ -44,17 +44,18 @@ article {
   border: 1px solid black;
 }
 
-.container {
+.container-fluid {
   margin-top: 15px;
 }
 
-.container article {
+.container-fluid article {
   font-size: 1.2em;
   padding: 2%;
 }
 
-.container article > h2 {
+.container-fluid article > h2 {
   font-size: 1.8em;
+  font-weight: bold;
 }
 
 .row > div.item:first-of-type > article {

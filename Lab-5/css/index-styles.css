@@ -55,13 +55,4 @@ a.gallery:visited {
     font-family: "Times New Roman", sans-serif;
     margin: 5px;
   }
-
-  h1 {
-    text-align: center;
-    font-size: 24px;
-  }
-
-  p {
-    font-size: 120%;
-  }
 }
