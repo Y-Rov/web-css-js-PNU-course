@@ -1,61 +1,51 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 h1 {
   text-align: center;
   font-size: 24px;
+  font-weight: 700;
 }
 
 p {
   font-size: 120%;
+  font-weight: 400;
 }
 
 a {
   font-size: 20px;
+  font-weight: 500;
 }
 
-.wrapper {
-  display: grid;
-  justify-items: center;
-}
-
-.grid-item:first-of-type a:link {
+a.autobiography:link {
   color: blue;
 }
 
-.grid-item:first-of-type a:visited {
+a.autobiography:visited {
   color: chocolate;
 }
 
-.grid-item:nth-of-type(2) a:link {
+a.present:link {
   color: red;
 }
 
-.grid-item:nth-of-type(2) a:visited {
+a.present:visited {
   color: darkcyan;
 }
 
-.grid-item:nth-of-type(3) a:link {
+a.friends:link {
   color: green;
 }
 
-.grid-item:nth-of-type(3) a:visited {
+a.friends:visited {
   color: darkmagenta;
 }
 
-.grid-item:last-of-type a:link {
+a.gallery:link {
   color: orange;
 }
 
-.grid-item:last-of-type a:visited {
+a.gallery:visited {
   color: mediumvioletred;
-}
-
-@media (min-width: 993px) {
-  .wrapper {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-@media (min-width: 769px) and (max-width: 992px) {
-  .wrapper {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
