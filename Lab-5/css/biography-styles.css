@@ -59,46 +59,26 @@ article {
 
 .row > div.item:first-of-type > article {
   background-color: aqua;
-}
-
-.row > div.item:first-of-type > article > h2,
-.row > div.item:first-of-type > article > p {
   color: darkblue;
 }
 
 .row > div.item:nth-of-type(2) > article {
   background-color: antiquewhite;
-}
-
-.row > div.item:nth-of-type(2) > article > h2,
-.row > div.item:nth-of-type(2) > article > p {
   color: royalblue;
 }
 
 .row > div.item:nth-of-type(3) > article {
   background-color: green;
-}
-
-.row > div.item:nth-of-type(3) > article > h2,
-.row > div.item:nth-of-type(3) > article > p {
   color: white;
 }
 
 .row > div.item:nth-of-type(4) > article {
   background-color: yellow;
-}
-
-.row > div.item:nth-of-type(4) > article > h2,
-.row > div.item:nth-of-type(4) > article > p {
   color: black;
 }
 
 .row > div.item:last-of-type > article {
   background-color: rebeccapurple;
-}
-
-.row > div.item:last-of-type > article > h2,
-.row > div.item:last-of-type > article > p {
   color: floralwhite;
 }
 
@@ -108,4 +88,15 @@ div.item a {
 
 body > a {
   text-transform: uppercase;
+}
+
+@media (max-width: 575px) {
+  body {
+    font-family: "Arial", sans-serif;
+    margin: 5px;
+  }
+
+  article {
+    border: none;
+  }
 }
