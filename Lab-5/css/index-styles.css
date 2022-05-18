@@ -1,0 +1,58 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 120%;
+  font-weight: 400;
+}
+
+a {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+a.autobiography:link {
+  color: blue;
+}
+
+a.autobiography:visited {
+  color: chocolate;
+}
+
+a.present:link {
+  color: red;
+}
+
+a.present:visited {
+  color: darkcyan;
+}
+
+a.friends:link {
+  color: green;
+}
+
+a.friends:visited {
+  color: darkmagenta;
+}
+
+a.gallery:link {
+  color: orange;
+}
+
+a.gallery:visited {
+  color: mediumvioletred;
+}
+
+@media (max-width: 575px) {
+  body {
+    font-family: "Times New Roman", sans-serif;
+    margin: 5px;
+  }
+}

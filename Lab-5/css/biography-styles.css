@@ -1,0 +1,103 @@
+body {
+  font-family: 'Arsenal', sans-serif;
+  margin: 5px;
+}
+
+#page-top {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+header > a {
+  font-style: italic;
+}
+
+section:first-of-type > h3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+section:first-of-type > a:link,
+section:first-of-type > a:visited {
+  text-decoration: none;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  border: 4px solid black;
+  display: block;
+  width: 195px;
+  margin-bottom: 4px;
+}
+
+section:first-of-type > a:hover {
+  background-color: magenta;
+  color: #00008B;
+}
+
+section:first-of-type > a:active {
+  background-color: yellow;
+  color: black;
+}
+
+article {
+  border: 1px solid black;
+}
+
+.container-fluid {
+  margin-top: 15px;
+}
+
+.container-fluid article {
+  font-size: 1.2em;
+  padding: 2%;
+}
+
+.container-fluid article > h2 {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.row > div.item:first-of-type > article {
+  background-color: aqua;
+  color: darkblue;
+}
+
+.row > div.item:nth-of-type(2) > article {
+  background-color: antiquewhite;
+  color: royalblue;
+}
+
+.row > div.item:nth-of-type(3) > article {
+  background-color: green;
+  color: white;
+}
+
+.row > div.item:nth-of-type(4) > article {
+  background-color: yellow;
+  color: black;
+}
+
+.row > div.item:last-of-type > article {
+  background-color: rebeccapurple;
+  color: floralwhite;
+}
+
+div.item a {
+  font-weight: bold;
+}
+
+body > a {
+  text-transform: uppercase;
+}
+
+@media (max-width: 575px) {
+  body {
+    font-family: "Times New Roman", sans-serif;
+    margin: 5px;
+  }
+
+  article {
+    border: none;
+  }
+}
