@@ -5,6 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Моя галерея</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/gallery-styles.css">
 </head>
 
@@ -16,22 +20,24 @@
 
   <h2>Мої зображення</h2>
 
-  <section>
-    <article>
-      <h3>Зображення у цій папці</h3>
-      <img src="first-image.jpg" alt="First Image">
-    </article>
+  <div class="container-fluid">
+    <section class="row text-center align-items-center">
+      <article class="col-sm-12 col-md-6 col-lg-4">
+        <h3>Зображення у цій папці</h3>
+        <img src="first-image.jpg" alt="First Image">
+      </article>
 
-    <article>
-      <h3>Зображення у папці</h3>
-      <img src="images/second-image.jpg" alt="Second Image">
-    </article>
+      <article class="col-sm-12 col-md-6 col-lg-4">
+        <h3>Зображення у папці</h3>
+        <img src="images/second-image.jpg" alt="Second Image">
+      </article>
 
-    <article>
-      <h3>Зображення онлайн</h3>
-      <img src="https://place-hold.it/1280x1024.jpg" alt="Third Image">
-    </article>
-  </section>
+      <article class="col-sm-12 col-md-12 col-lg-4">
+        <h3>Зображення онлайн</h3>
+        <img src="https://place-hold.it/1280x1024.jpg" alt="Third Image">
+      </article>
+    </section>
+  </div>
 </body>
 
 </html>
