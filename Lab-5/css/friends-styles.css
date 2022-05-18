@@ -40,7 +40,7 @@ td:last-child {
   text-align: end;
 }
 
-@media (min-width: 993px) {
+@media (min-width: 992px) {
   th {
     font-size: 1.3em;
   }
@@ -50,7 +50,7 @@ td:last-child {
   }
 }
 
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
   th {
     font-size: 1.2em;
   }
@@ -60,7 +60,7 @@ td:last-child {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   th {
     font-size: 1.1em;
   }
