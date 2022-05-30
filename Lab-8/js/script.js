@@ -15,7 +15,7 @@
 (function () {
   console.log("\n");
   console.log("Additional task results:");
-  console.log("This snippet of code \"says\" bye to people whose name doesn't end with 'r' or 'a':");
+  console.log("This snippet of code \"says\" hello to people whose name ends with 'r' or 'a':");
   let names = ["James", "John", "Robert", "Mary", "Donald", "Jennifer", "Barbara", "Larry", "Laura", "Jessica"];
   
   for (var i = 0; i < names.length; i++) {
