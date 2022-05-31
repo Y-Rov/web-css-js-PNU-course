@@ -1,0 +1,75 @@
+{
+  "catalog_items": [
+	{
+	  "id": 21,
+	  "short_name": "Yaremche-1",
+	  "name": "Yaremche 1",
+	  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut cupiditate deserunt dolorum eaque est excepturi fugit impedit laborum necessitatibus obcaecati, officia officiis perspiciatis, porro quae quia reiciendis repudiandae sapiente sequi vero vitae voluptatem voluptatibus? Dolorem ea eaque fuga. At debitis doloribus eligendi laboriosam minima numquam tempore voluptatum! Ad assumenda aut deserunt excepturi facere possimus quae quod tempora ullam, voluptas. Cumque exercitationem facilis incidunt, maiores minus neque tenetur veniam. Ad adipisci alias aliquid asperiores assumenda autem, corporis dicta dolore dolorem, doloremque dolores doloribus ducimus eaque eos eum eveniet illo incidunt, laudantium libero minima molestias nulla numquam obcaecati pariatur perspiciatis quis quos recusandae reprehenderit repudiandae sint tempore unde veniam voluptatem. Ab exercitationem in nemo quibusdam repudiandae voluptatibus, voluptatum. Adipisci asperiores, beatae consequatur cumque dicta dignissimos dolores eos eum magnam maiores molestiae necessitatibus optio quaerat quas quod rem, ullam! A, quia, sequi! Aliquid, corporis ducimus labore magnam magni odit officiis perspiciatis reiciendis sapiente, sint tenetur totam! Delectus dignissimos doloremque esse facilis impedit, magnam soluta suscipit! Amet architecto assumenda at consectetur error excepturi exercitationem iusto odit perspiciatis, sapiente? Inventore laboriosam molestias natus reprehenderit sequi! Aut beatae, corporis culpa cumque dicta distinctio error eveniet excepturi minus nulla officiis qui quibusdam quisquam recusandae tenetur? Vitae.",
+	  "cadastral_number": "2611092001:22:002:0270",
+	  "lat": "48.44441387182104",
+	  "lon": "24.533725315366596",
+	  "area_in_are": 35,
+	  "price_for_are": 2500
+	},
+	{
+	  "id": 22,
+	  "short_name": "Yaremche-2",
+	  "name": "Yaremche 2",
+	  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut cupiditate deserunt dolorum eaque est excepturi fugit impedit laborum necessitatibus obcaecati, officia officiis perspiciatis, porro quae quia reiciendis repudiandae sapiente sequi vero vitae voluptatem voluptatibus? Dolorem ea eaque fuga. At debitis doloribus eligendi laboriosam minima numquam tempore voluptatum! Ad assumenda aut deserunt excepturi facere possimus quae quod tempora ullam, voluptas. Cumque exercitationem facilis incidunt, maiores minus neque tenetur veniam. Ad adipisci alias aliquid asperiores assumenda autem, corporis dicta dolore dolorem, doloremque dolores doloribus ducimus eaque eos eum eveniet illo incidunt, laudantium libero minima molestias nulla numquam obcaecati pariatur perspiciatis quis quos recusandae reprehenderit repudiandae sint tempore unde veniam voluptatem. Ab exercitationem in nemo quibusdam repudiandae voluptatibus, voluptatum. Adipisci asperiores, beatae consequatur cumque dicta dignissimos dolores eos eum magnam maiores molestiae necessitatibus optio quaerat quas quod rem, ullam! A, quia, sequi! Aliquid, corporis ducimus labore magnam magni odit officiis perspiciatis reiciendis sapiente, sint tenetur totam! Delectus dignissimos doloremque esse facilis impedit, magnam soluta suscipit! Amet architecto assumenda at consectetur error excepturi exercitationem iusto odit perspiciatis, sapiente? Inventore laboriosam molestias natus reprehenderit sequi! Aut beatae, corporis culpa cumque dicta distinctio error eveniet excepturi minus nulla officiis qui quibusdam quisquam recusandae tenetur? Vitae.",
+	  "cadastral_number": "2611092001:22:002:0270",
+	  "lat": "48.44441387182104",
+	  "lon": "24.533725315366596",
+	  "area_in_are": 30,
+	  "price_for_are": 2000
+	},
+	{
+	  "id": 23,
+	  "short_name": "Yaremche-3",
+	  "name": "Yaremche 3",
+	  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut cupiditate deserunt dolorum eaque est excepturi fugit impedit laborum necessitatibus obcaecati, officia officiis perspiciatis, porro quae quia reiciendis repudiandae sapiente sequi vero vitae voluptatem voluptatibus? Dolorem ea eaque fuga. At debitis doloribus eligendi laboriosam minima numquam tempore voluptatum! Ad assumenda aut deserunt excepturi facere possimus quae quod tempora ullam, voluptas. Cumque exercitationem facilis incidunt, maiores minus neque tenetur veniam. Ad adipisci alias aliquid asperiores assumenda autem, corporis dicta dolore dolorem, doloremque dolores doloribus ducimus eaque eos eum eveniet illo incidunt, laudantium libero minima molestias nulla numquam obcaecati pariatur perspiciatis quis quos recusandae reprehenderit repudiandae sint tempore unde veniam voluptatem. Ab exercitationem in nemo quibusdam repudiandae voluptatibus, voluptatum. Adipisci asperiores, beatae consequatur cumque dicta dignissimos dolores eos eum magnam maiores molestiae necessitatibus optio quaerat quas quod rem, ullam! A, quia, sequi! Aliquid, corporis ducimus labore magnam magni odit officiis perspiciatis reiciendis sapiente, sint tenetur totam! Delectus dignissimos doloremque esse facilis impedit, magnam soluta suscipit! Amet architecto assumenda at consectetur error excepturi exercitationem iusto odit perspiciatis, sapiente? Inventore laboriosam molestias natus reprehenderit sequi! Aut beatae, corporis culpa cumque dicta distinctio error eveniet excepturi minus nulla officiis qui quibusdam quisquam recusandae tenetur? Vitae.",
+	  "cadastral_number": "2611092001:22:002:0270",
+	  "lat": "48.44441387182104",
+	  "lon": "24.533725315366596",
+	  "area_in_are": 25,
+	  "price_for_are": 2300
+	},
+	{
+	  "id": 24,
+	  "short_name": "Yaremche-4",
+	  "name": "Yaremche 4",
+	  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut cupiditate deserunt dolorum eaque est excepturi fugit impedit laborum necessitatibus obcaecati, officia officiis perspiciatis, porro quae quia reiciendis repudiandae sapiente sequi vero vitae voluptatem voluptatibus? Dolorem ea eaque fuga. At debitis doloribus eligendi laboriosam minima numquam tempore voluptatum! Ad assumenda aut deserunt excepturi facere possimus quae quod tempora ullam, voluptas. Cumque exercitationem facilis incidunt, maiores minus neque tenetur veniam. Ad adipisci alias aliquid asperiores assumenda autem, corporis dicta dolore dolorem, doloremque dolores doloribus ducimus eaque eos eum eveniet illo incidunt, laudantium libero minima molestias nulla numquam obcaecati pariatur perspiciatis quis quos recusandae reprehenderit repudiandae sint tempore unde veniam voluptatem. Ab exercitationem in nemo quibusdam repudiandae voluptatibus, voluptatum. Adipisci asperiores, beatae consequatur cumque dicta dignissimos dolores eos eum magnam maiores molestiae necessitatibus optio quaerat quas quod rem, ullam! A, quia, sequi! Aliquid, corporis ducimus labore magnam magni odit officiis perspiciatis reiciendis sapiente, sint tenetur totam! Delectus dignissimos doloremque esse facilis impedit, magnam soluta suscipit! Amet architecto assumenda at consectetur error excepturi exercitationem iusto odit perspiciatis, sapiente? Inventore laboriosam molestias natus reprehenderit sequi! Aut beatae, corporis culpa cumque dicta distinctio error eveniet excepturi minus nulla officiis qui quibusdam quisquam recusandae tenetur? Vitae.",
+	  "cadastral_number": "2611092001:22:002:0270",
+	  "lat": "48.44441387182104",
+	  "lon": "24.533725315366596",
+	  "area_in_are": 26.9,
+	  "price_for_are": 2550
+	},
+	{
+	  "id": 25,
+	  "short_name": "Yaremche-5",
+	  "name": "Yaremche 5",
+	  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut cupiditate deserunt dolorum eaque est excepturi fugit impedit laborum necessitatibus obcaecati, officia officiis perspiciatis, porro quae quia reiciendis repudiandae sapiente sequi vero vitae voluptatem voluptatibus? Dolorem ea eaque fuga. At debitis doloribus eligendi laboriosam minima numquam tempore voluptatum! Ad assumenda aut deserunt excepturi facere possimus quae quod tempora ullam, voluptas. Cumque exercitationem facilis incidunt, maiores minus neque tenetur veniam. Ad adipisci alias aliquid asperiores assumenda autem, corporis dicta dolore dolorem, doloremque dolores doloribus ducimus eaque eos eum eveniet illo incidunt, laudantium libero minima molestias nulla numquam obcaecati pariatur perspiciatis quis quos recusandae reprehenderit repudiandae sint tempore unde veniam voluptatem. Ab exercitationem in nemo quibusdam repudiandae voluptatibus, voluptatum. Adipisci asperiores, beatae consequatur cumque dicta dignissimos dolores eos eum magnam maiores molestiae necessitatibus optio quaerat quas quod rem, ullam! A, quia, sequi! Aliquid, corporis ducimus labore magnam magni odit officiis perspiciatis reiciendis sapiente, sint tenetur totam! Delectus dignissimos doloremque esse facilis impedit, magnam soluta suscipit! Amet architecto assumenda at consectetur error excepturi exercitationem iusto odit perspiciatis, sapiente? Inventore laboriosam molestias natus reprehenderit sequi! Aut beatae, corporis culpa cumque dicta distinctio error eveniet excepturi minus nulla officiis qui quibusdam quisquam recusandae tenetur? Vitae.",
+	  "cadastral_number": "2611092001:22:002:0270",
+	  "lat": "48.44441387182104",
+	  "lon": "24.533725315366596",
+	  "area_in_are": 80,
+	  "price_for_are": 1900
+	},
+	{
+	  "id": 26,
+	  "short_name": "Yaremche-6",
+	  "name": "Yaremche 6",
+	  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut cupiditate deserunt dolorum eaque est excepturi fugit impedit laborum necessitatibus obcaecati, officia officiis perspiciatis, porro quae quia reiciendis repudiandae sapiente sequi vero vitae voluptatem voluptatibus? Dolorem ea eaque fuga. At debitis doloribus eligendi laboriosam minima numquam tempore voluptatum! Ad assumenda aut deserunt excepturi facere possimus quae quod tempora ullam, voluptas. Cumque exercitationem facilis incidunt, maiores minus neque tenetur veniam. Ad adipisci alias aliquid asperiores assumenda autem, corporis dicta dolore dolorem, doloremque dolores doloribus ducimus eaque eos eum eveniet illo incidunt, laudantium libero minima molestias nulla numquam obcaecati pariatur perspiciatis quis quos recusandae reprehenderit repudiandae sint tempore unde veniam voluptatem. Ab exercitationem in nemo quibusdam repudiandae voluptatibus, voluptatum. Adipisci asperiores, beatae consequatur cumque dicta dignissimos dolores eos eum magnam maiores molestiae necessitatibus optio quaerat quas quod rem, ullam! A, quia, sequi! Aliquid, corporis ducimus labore magnam magni odit officiis perspiciatis reiciendis sapiente, sint tenetur totam! Delectus dignissimos doloremque esse facilis impedit, magnam soluta suscipit! Amet architecto assumenda at consectetur error excepturi exercitationem iusto odit perspiciatis, sapiente? Inventore laboriosam molestias natus reprehenderit sequi! Aut beatae, corporis culpa cumque dicta distinctio error eveniet excepturi minus nulla officiis qui quibusdam quisquam recusandae tenetur? Vitae.",
+	  "cadastral_number": "2611092001:22:002:0270",
+	  "lat": "48.44441387182104",
+	  "lon": "24.533725315366596",
+	  "area_in_are": 45,
+	  "price_for_are": 2400
+	}
+  ],
+  "category" : {
+	"name": "Yaremche",
+	"short_name": "Yaremche",
+	"notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, sint."
+  }
+}
