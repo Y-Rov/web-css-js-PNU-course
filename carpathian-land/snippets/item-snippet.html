@@ -1,0 +1,62 @@
+<div class="container">
+  <div class="row my-4">
+
+    <div class="item-breadcrumb">
+      <a href="index.html"><i class="bi bi-house-door-fill"></i></a>
+      <span>/</span>
+      <a href="#" onclick="$ns.loadCategoryItems('{{categoryShortName}}')">{{categoryShortName}}</a>
+      <span>/</span>
+      <span>{{name}}</span>
+    </div>
+
+    <h1 class="my-3">{{name}}</h1>
+
+    <div>
+      <span><i class="bi bi-geo-alt-fill accent-color"></i> {{categoryShortName}}</span>
+    </div>
+
+  </div> <!-- .row -->
+
+  <div class="row align-items-stretch justify-content-between">
+
+    <div class="col-lg-6 order-1 order-lg-1">
+      <img class="img-fluid" src="images/catalog/{{categoryShortName}}/{{short_name}}.jpg" alt="{{name}}">
+    </div>
+
+    <div class="col-lg-6 order-3 order-lg-2">
+      <div class="d-lg-none mt-3">
+        <p class="fs-5 fw-bold">Google Maps</p>
+      </div>
+      <iframe
+          class="google-map"
+          width="100%"
+          style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://maps.google.com/maps?q={{lat}},{{lon}}&hl=ua&z=14&amp;output=embed"
+      ></iframe>
+    </div> <!-- .col -->
+
+    <div class="col-12 mt-3 order-2 order-lg-3">
+      <div class="row flex-column mt-2">
+        <p class="fs-5 fw-bold mb-1">Description</p>
+        <p>{{description}}</p>
+      </div>
+
+      <div class="row flex-column mt-2">
+        <p class="fs-5 fw-bold mb-1">Cadastral number</p>
+        <p>{{cadastral_number}}</p>
+      </div>
+
+      <div class="row flex-column mt-2">
+        <p class="fs-5 fw-bold mb-1">Area</p>
+        <p>{{area_in_are}}</p>
+      </div>
+
+      <div class="row flex-column mt-2">
+        <p class="fs-5 fw-bold mb-1">Price</p>
+        <p>{{price_for_are}}</p>
+      </div>
+    </div> <!-- .col -->
+
+  </div> <!-- .row -->
+</div> <!-- .container -->

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carpathian Land</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container">
+
+      <a class="navbar-brand" href="index.html">Carpathian Land</a>
+
+      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsable-nav" aria-controls="collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end mt-3 mt-lg-0" id="collapsable-nav">
+        <ul class="navbar-nav text-center">
+
+          <li class="nav-item my-1 my-lg-0">
+            <a class="nav-link mx-2 active" id="navHomeButton" aria-current="page" href="index.html">Home</a>
+          </li>
+
+
+          <li class="nav-item my-1 my-lg-0">
+            <a class="nav-link mx-2" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Calculator</a>
+          </li>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Calculate price for land</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                  <div class="form-floating mb-3">
+                  <input class="form-control" id="floatingInputM" placeholder="Number of square meters">
+                  <label for="floatingInputM">Number of square meters(ares)</label>
+                </div>
+                  <div class="form-floating">
+                    <input class="form-control" id="floatingInputP" placeholder="Price per square meter">
+                    <label for="floatingInputP">Price per square meter(ares)</label>
+                  </div>
+                  <div>
+                    <p class="text-start m-2" id="result"></p>
+                  </div>
+                </div>
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" onclick="$ns.getCalculate()">Calculate</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <li class="nav-item dropdown my-1 my-lg-0">
+            <a class="nav-link dropdown-toggle mx-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Assortment
+            </a>
+            <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" id="navBukovel" href="#" onclick="$ns.loadCategoryItems('Bukovel')">Bukovel</a></li>
+              <li><a class="dropdown-item" id="navYaremche" href="#" onclick="$ns.loadCategoryItems('Yaremche')">Yaremche</a></li>
+              <li><a class="dropdown-item" id="navIvano-Frankivsk" href="#" onclick="$ns.loadCategoryItems('Ivano-Frankivsk')">Ivano-Frankivsk</a></li>
+              <li><a class="dropdown-item" id="navVorohta" href="#" onclick="$ns.loadCategoryItems('Vorohta')">Vorohta</a></li>
+              <li><a class="dropdown-item" id="navPolyanytsya" href="#" onclick="$ns.loadCategoryItems('Polyanytsya')">Polyanytsya</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item my-1 my-lg-0">
+            <a class="nav-link mx-2" id="navAboutUsButton" href="#" onclick="$ns.loadAboutUsPage()">About us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+
+</header>
+
+<div id="content">
+
+</div>
+
+<footer class="text-center text-lg-start">
+
+  <div class="container p-4">
+
+    <div class="row text-center">
+
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase" style="font-size: 30px">Carpathian Land</h5>
+
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <a href="#" class="text-uppercase mb-0" style="font-size: 26px; cursor: pointer" onclick="$ns.loadAboutUsPage()">About us</a>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-1">Contact us</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="tel:+380981086166">+380 98 108 61 66</a>
+          </li>
+          <li>
+            <a href="tel:+380984772033">+380 98 477 20 33</a>
+          </li>
+          <li>
+            <a href="tel:+380993732217">+380 99 373 22 17</a>
+          </li>
+        </ul>
+      </div>
+
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-1">For users</h5>
+
+        <ul class="list-unstyled">
+          <li><a   href="#" onclick="$ns.loadCategoryItems('Bukovel')">Bukovel</a></li>
+          <li><a   href="#" onclick="$ns.loadCategoryItems('Yaremche')">Yaremche</a></li>
+          <li><a   href="#" onclick="$ns.loadCategoryItems('Ivano-Frankivsk')">Ivano-Frankivsk</a></li>
+          <li><a   href="#" onclick="$ns.loadCategoryItems('Vorohta')">Vorohta</a></li>
+          <li><a   href="#" onclick="$ns.loadCategoryItems('Polyanytsya')">Polyanytsya</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a  href="https://github.com/Carpathian-Land">Caprathian Land</a>
+  </div>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/ajax-utils.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

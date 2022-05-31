@@ -1,0 +1,201 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+header nav{
+  background-color: #1eb160;
+}
+nav .navbar-light .yellow{
+  color: white;
+}
+nav.navbar-light li a{
+  color:white
+}
+
+.navbar-nav > li >.dropdown-menu{
+  background-color: #1eb160;
+  color: white;
+}
+.navbar-nav>li>.dropdown-menu a{
+  color: white;
+}
+.navbar-nav > li >.dropdown-menu a:hover{
+  background-color: #ffd800 ;
+  color: black;
+}
+
+nav .navbar-nav li a:hover{
+  background-color: #ffd800;
+}
+#collapsable-nav .navbar-nav li a.show{
+  background-color: #ffd800;
+  color: black;
+}
+
+#collapsable-nav .nav-link:hover{
+  color: black;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 216, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #ffd800;
+}
+
+.custom-toggler.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+#collapsable-nav .active {
+  background-color: #ffd800;
+  color: black;
+}
+
+
+.accent-color {
+  color: #1eb160;
+}
+
+/* START ITEM-SNIPPET PAGE */
+
+.item-breadcrumb span:not(:last-of-type){
+  margin: 0 10px;
+  color: #1eb160;
+}
+
+.item-breadcrumb a{
+  color: #1eb160;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover{
+  text-decoration: underline;
+}
+
+/* END ITEM-SNIPPET PAGE */
+
+@media (min-width: 992px) {
+  .google-map {
+    height: 100%;
+  }
+
+  .bi-pen.custom-pen,
+  .bi-emoji-smile.custom-emoji-smile,
+  .bi-chat-square-text.custom-chat-square {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .google-map {
+    height: 300px;
+  }
+
+  .bi-pen.custom-pen,
+  .bi-emoji-smile.custom-emoji-smile,
+  .bi-chat-square-text.custom-chat-square {
+    font-size: 6.5vw;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .bi-pen.custom-pen,
+  .bi-emoji-smile.custom-emoji-smile,
+  .bi-chat-square-text.custom-chat-square {
+    font-size: 6.25vw;
+  }
+}
+
+/* START HOME PAGE, MAIN CONTENT */
+
+.custom-jumbotron {
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/jumbotron.jpg") center;
+}
+
+.card {
+  border-radius: 4px;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.btn.custom-button {
+  background-color: #1eb160;
+  color: white;
+  width: 100%;
+}
+
+/* END HOME PAGE, MAIN CONTENT */
+
+/* START ABOUT US PAGE */
+
+.bi-instagram.custom-instagram,
+.bi-github.custom-github,
+.bi-linkedin.custom-linkedin {
+  font-size: 40px;
+}
+
+.custom-h1 {
+  font-size: 50px;
+}
+
+/* END ABOUT US PAGE */
+.modal-header{
+  background-color: #1eb160;
+  color: white;
+  border-color: #ffd800;
+}
+.modal-body{
+  background-color: #1eb160;
+  color: black;
+  border-color: #ffd800;
+}
+.modal-body p{
+  color: #ffd800;
+  font-weight: bold;
+}
+
+.modal-footer{
+  background-color: #1eb160;
+  border-color: #ffd800;
+}
+.modal-footer .btn{
+  color: black;
+  background-color: #ffd800;
+}
+.modal-footer .btn:hover{
+  color: black;
+  background-color: #ff9100;
+}
+
+
+
+footer{
+  background-color: #0b4122;
+  color: white;
+}
+footer a{
+  color: white;
+  text-decoration: none;
+}
+footer a:hover{
+  background-color: #ffd800;
+  color: black;
+  text-decoration: none;
+}
+.about-us:hover{
+  background-color: #ffd800;
+  color: black;
+}

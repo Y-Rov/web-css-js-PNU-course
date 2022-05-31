@@ -1,0 +1,32 @@
+[
+  {
+	"id": 1,
+	"name": "Bukovel",
+	"notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, sint.",
+	"url": "data/catalog/Bukovel.json"
+  },
+  {
+	"id": 2,
+	"name": "Yaremche",
+	"notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ratione?",
+	"url": "data/catalog/Yaremche.json"
+  },
+  {
+	"id": 3,
+	"name": "Vorohta",
+	"notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, praesentium.",
+	"url": "data/catalog/Vorohta.json"
+  },
+  {
+	"id": 4,
+	"name": "Polyanytsya",
+	"notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, totam.",
+	"url": "data/catalog/Polyanytsya.json"
+  },
+  {
+	"id": 5,
+	"name": "Ivano-Frankivsk",
+	"notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, totam.",
+	"url": "data/catalog/Ivano-Frankivsk.json"
+  }
+]
