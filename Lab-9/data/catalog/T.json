@@ -1,0 +1,33 @@
+{
+  "catalog_items": [
+    {
+      "id": 1,
+      "name": "Toy-1",
+      "shortname": "T-1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, sint.",
+      "price": 20
+    },
+    {
+      "id": 2,
+      "name": "Toy-2",
+      "shortname": "T-2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ratione?",
+      "price": 30
+    },
+    {
+      "id": 3,
+      "name": "Toy-3",
+      "shortname": "T-3",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, praesentium.",
+      "price": 10
+    },
+    {
+      "id": 4,
+      "name": "Toy-4",
+      "shortname": "T-4",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, totam.",
+      "price": 5
+    }
+  ],
+  "category": {"shortname": "T", "name": "Category-T", "notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, sint."}
+}

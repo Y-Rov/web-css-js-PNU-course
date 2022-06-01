@@ -1,0 +1,33 @@
+{
+  "catalog_items": [
+    {
+      "id": 1,
+      "name": "Game-1",
+      "shortname": "G-1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, sint.",
+      "price": 40
+    },
+    {
+      "id": 2,
+      "name": "Game-2",
+      "shortname": "G-2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ratione?",
+      "price": 5
+    },
+    {
+      "id": 3,
+      "name": "Game-3",
+      "shortname": "G-3",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, praesentium.",
+      "price": 10
+    },
+    {
+      "id": 4,
+      "name": "Game-4",
+      "shortname": "G-4",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, totam.",
+      "price": 30
+    }
+  ],
+  "category": {"shortname": "G", "name": "Category-G", "notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ratione?"}
+}
