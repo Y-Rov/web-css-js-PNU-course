@@ -65,6 +65,15 @@
         buildAndShowCatalogItemsHtml);
   };
 
+  ajax.loadRandomItems = function () {
+    showLoading("#main-content");
+    let randomCategoryJSON = ["B", "C", "G", "T"];
+    const random = Math.floor(Math.random() * randomCategoryJSON.length);
+    $ajaxUtils.sendGetRequest(
+        CATALOG_ITEMS_URL + randomCategoryJSON[random] + ".json",
+        buildAndShowCatalogItemsHtml);
+  }
+
   function buildAndShowCategoriesHTML(categories) {
     $ajaxUtils.sendGetRequest(
         CATEGORIES_TITLE_HTML,
