@@ -1,0 +1,33 @@
+{
+  "catalog_items": [
+  {
+    "id": 1,
+    "name": "Book-1",
+    "shortname": "B-1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, sint.",
+    "price": 40
+  },
+  {
+    "id": 2,
+    "name": "Book-2",
+    "shortname": "B-2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ratione?",
+    "price": 30
+  },
+  {
+    "id": 3,
+    "name": "Book-3",
+    "shortname": "B-3",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, praesentium.",
+    "price": 20
+  },
+  {
+    "id": 4,
+    "name": "Book-4",
+    "shortname": "B-4",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, totam.",
+    "price": 50
+  }
+],
+  "category": {"shortname": "B", "name": "Category-B", "notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, praesentium."}
+}
